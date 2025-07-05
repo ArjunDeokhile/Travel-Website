@@ -6,16 +6,6 @@ import { useNavigate } from 'react-router-dom';
 import stories from './stories';
 import AssistiveButton from './AssistiveButton';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: Home(),
-  },
-  {
-    path: '/test',
-    element: Test(),
-  }
-]);
 
 function App() {
   
