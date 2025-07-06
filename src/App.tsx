@@ -2,9 +2,7 @@ import React from 'react';
 import bgVideo from './video/bg-video.mp4';
 import { Bell, ChevronDown, Search, Menu } from 'lucide-react';
 import App1 from './App1';
-import { useNavigate } from 'react-router-dom';
-import stories from './stories';
-import AssistiveButton from './AssistiveButton';
+
 
 
 function App() {
